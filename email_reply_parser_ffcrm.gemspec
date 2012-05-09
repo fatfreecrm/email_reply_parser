@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   ## the sub! line in the Rakefile
   s.name              = 'email_reply_parser_ffcrm'
   s.version           = '0.5.0'
-  s.date              = '2012-03-01'
+  s.date              = '2012-05-09'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -61,7 +61,7 @@ Gem::Specification.new do |s|
     LICENSE
     README.md
     Rakefile
-    email_reply_parser.gemspec
+    email_reply_parser_ffcrm.gemspec
     lib/email_reply_parser.rb
     test/email_reply_parser_test.rb
     test/emails/correct_sig.txt
@@ -72,6 +72,7 @@ Gem::Specification.new do |s|
     test/emails/email_1_5.txt
     test/emails/email_1_6.txt
     test/emails/email_2_1.txt
+    test/emails/email_2_2.txt
     test/emails/email_BlackBerry.txt
     test/emails/email_bullets.txt
     test/emails/email_iPhone.txt

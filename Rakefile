@@ -9,7 +9,7 @@ require 'date'
 #############################################################################
 
 def name
-  @name ||= Dir['*.gemspec'].first.split('.').first
+  @name ||= "email_reply_parser"
 end
 
 def version
@@ -26,7 +26,7 @@ def rubyforge_project
 end
 
 def gemspec_file
-  "#{name}.gemspec"
+  "#{name}_ffcrm.gemspec"
 end
 
 def gem_file
